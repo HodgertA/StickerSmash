@@ -7,14 +7,14 @@
     "ios": "expo run:ios",
     "web": "expo start --web"
   },
-"dependencies": {
+  "dependencies": {
     "@react-native-async-storage/async-storage": "1.18.2",
     "@react-native-community/datetimepicker": "7.2.0",
     "@react-native-google-signin/google-signin": "^10.1.1",
-    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/bottom-tabs": "6.5.12",
     "@react-navigation/drawer": "^6.6.7",
     "@react-navigation/native": "^6.1.10",
-    "@react-navigation/stack": "^6.3.17",
+    "@react-navigation/stack": "6.3.21",
     "@reduxjs/toolkit": "^1.9.5",
     "axios": "^1.6.2",
     "core-js": "^3.34.0",
