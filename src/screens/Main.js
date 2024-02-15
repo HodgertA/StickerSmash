@@ -76,7 +76,8 @@ const styles = StyleSheet.create({
 
 function MainDrawer() {
   return (
-    <Drawer.Navigator
+
+      <Drawer.Navigator
       drawerContent={DrawerScreen}
       screenOptions={{
         headerShown: false,
@@ -84,9 +85,11 @@ function MainDrawer() {
         drawerStyle: { width: 210 },
       }}
     >
-      <Drawer.Screen name="mainscreen" component={Main} />
-      <Drawer.Screen name="habitsPage" component={Habits} />
-    </Drawer.Navigator>
+        <Drawer.Screen name="mainscreen" component={Main} />
+        <Drawer.Screen name="habitsPage" component={Habits} />
+      </Drawer.Navigator>
+
+
   );
 }
 

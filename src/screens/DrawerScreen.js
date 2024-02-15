@@ -18,7 +18,7 @@ const DrawerScreen = ({ navigation }) => {
         buttonPreference = [ {
           image: require("../assets/images/home.png"),
           onPress: () => {
-            navigation.navigate("mainscreen");
+            navigation.navigate("main", {screen: "mainscreen"});
           },
         }]
 
@@ -26,7 +26,7 @@ const DrawerScreen = ({ navigation }) => {
           {
             image: require("../assets/images/habits512.png"),
             onPress: () => {
-              navigationService.navigate("habitsPage");
+              navigationService.navigate("main", {screen: "habitsPage"});
             },
           })
 
